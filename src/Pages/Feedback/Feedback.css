@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}   
+
+.feedback-block {
+    width: 100%;
+    height: 16rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F98080;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.feedback {
+    margin-top: 8rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.feedbackgif {
+    width: 30rem;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    border-radius: 10px;
+    animation: updown 1s ease-in-out infinite alternate;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.details {
+    margin-top: 3rem;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#email {
+    width: 60%;
+    margin-top: 1.5rem;
+    border: none;
+    display: block;
+    height: 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FDE8E8;
+    padding-left: 2rem;
+}
+
+.text {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#suggestions {
+    margin-top: 1.5rem;
+    border: none;
+    display: block;
+    height: 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FDE8E8;
+    padding: 1rem 2rem;
+    height: 14rem;
+    width: 60%;
+}
+
+.submit {
+    margin: 4rem 0 4rem 20rem;
+    width: 20%;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #F98080;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.submit:hover {
+    background-color: #FDE8E8;
+    color: #F98080;
+    border: 2px solid #F98080;
+}
+
+.thankyou-card {
+    width: 30%;
+    height: 20rem;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    padding: 20px;
+    background-color: #FDE8E8;
+    border-radius: 25px;
+}
+
+.check {
+   margin-left: 11rem;
+}
+
+.thank-text {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F98080;
+    letter-spacing: 1px;
+}
+
+@media(max-width : 768px) {
+
+    .feedback-block {
+        height: 20rem;
+    }
+
+    .feedback {
+        margin-top: 15rem;
+        font-size: 2rem;
+        margin-left: 7.5rem;
+    }
+
+    .feedbackgif {
+        width: 15rem;
+        position: fixed;
+        right: 22%;
+    }
+
+    .details {
+        margin-left: 2rem;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    #suggestions {
+        width: 90%;
+    }
+
+    .submit {
+        margin: 4rem 0 4rem 8rem;
+        width: 30%;
+    }
+
+    .thankyou-card {
+        width: 80%;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .check {
+        margin-left: 9rem;
+    }
+}
