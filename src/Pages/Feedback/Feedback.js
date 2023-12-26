@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import './Feedback.css'
 import feedbackgif from './Feedback.gif'
-import { Link } from 'react-router-dom'
 import SliderBar from './SliderBar'
 
 
