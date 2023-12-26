@@ -1,0 +1,38 @@
+body{
+    background-color: #ebe7e7;
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 15px;
+}
+.custom-width{
+    width: 500px;
+    border-radius: 1rem;
+    box-shadow: 5px 11px 15px rgba(0, 0, 0, 0.25);
+}
+.imgb{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 450px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.text{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    text-align: center;
+    padding:0px 2.5rem;
+    font-weight: 500;
+}
