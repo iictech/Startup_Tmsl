@@ -27,8 +27,8 @@
 .feedbackgif {
     width: 30rem;
     position: fixed;
-    top: 5px;
-    right: 20px;
+    top: 280px;
+    right: 30px;
     border-radius: 10px;
     background: transparent;
     animation: updown 1s ease-in-out infinite alternate;
@@ -143,6 +143,7 @@
         width: 15rem;
         position: fixed;
         right: 22%;
+        top: 4%;
     }
 
     .details {
