@@ -15,10 +15,7 @@ const Feedback = () => {
       alert('Please enter a valid email address.');
       return;
     }
-
-    // Handle form submission logic here if needed
-    // For now, just alerting for email validation
-    // alert('Form submitted successfully!');
+    
     window.location.href = "/thank-you";
   };
 
