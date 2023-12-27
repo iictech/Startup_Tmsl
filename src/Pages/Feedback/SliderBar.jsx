@@ -54,7 +54,7 @@ function valuetext(value) {
 }
 
 function valueLabelFormat(value) {
-  return marks.findIndex((mark) => mark.value === value) + 1;
+  return marks.findIndex((mark) => mark.value === value);
 }
 
 const SliderBar = () => {
