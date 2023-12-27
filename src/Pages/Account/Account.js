@@ -1,3 +1,4 @@
+import './accountstyle.css'
 import React from 'react'
 
 const Account = () => {
@@ -5,6 +6,9 @@ const Account = () => {
     
     <>
       <div className="account-box">
+          <div className="account-box-circle"></div>
+          <div className="account-box-circle"></div>
+          <div className="account-box-circle"></div>
           <h1>My Profile</h1>
           <div className="account-image">
               <input type="file" className="account-file-input" accept="image/*"></input>
