@@ -11,13 +11,13 @@ body{
     align-items: center;
     background-color: #595858;
 }
-.profile-heading{
+.profile-edit-heading{
     font-size: 25px;
     z-index:6;
     position: relative;
     font-weight: 800;
 }
-.account-box{
+.account-edit-box{
     position: relative;
     background-color: #fff;
     color: black;
@@ -26,14 +26,14 @@ body{
     width: 400px;
     height: 630px;
     overflow: hidden;
-    
+    padding-bottom: 2rem;
 }
-.account-box .account-box-circle {
+.account-edit-box .account-edit-box-circle {
     position: absolute;
     
     
 }
-.account-box .account-box-circle:nth-child(1){
+.account-edit-box .account-edit-box-circle:nth-child(1){
     background: rgb(31, 110, 246);
     top:-80px;
     left:-100px;
@@ -43,7 +43,7 @@ body{
     z-index:4;
     opacity: 0.9;
 }
-.account-box .account-box-circle:nth-child(2){
+.account-edit-box .account-edit-box-circle:nth-child(2){
     background-color: rgb(39, 167, 236);
     top:-110px;
     left:150px;
@@ -53,7 +53,7 @@ body{
     z-index:3;
     opacity: 0.9;
 }
-.account-box .account-box-circle:nth-child(3){
+.account-edit-box .account-edit-box-circle:nth-child(3){
     background: rgb(136, 215, 241);
     top:-70px;
     left:180px;
@@ -63,58 +63,82 @@ body{
     z-index:2;
     opacity: 0.9;
 }
-.account-details{
+.account-edit-details{
     background: rgb(203, 241, 247);
     opacity: 0.9;
     z-index:5;
     padding: 20px;
-    padding-top: 100px;
+    padding-top:170px;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px #8f8d8d;
     position: relative;
-    margin-top: -65px;
+    margin-top: -130px;
 }
-
-.account-details h1{
+.account-edit-details h1{
     text-align: center;
     font-size: 25px;
     font-weight: 800;
 }
-.account-details ul li{
+.account-edit-details ul li{
     color:#8f8d8d;
     font-size: 14px;
     display: flex;
     border-bottom: 2px solid #26272b;
     margin-bottom: 2rem;
 }
-.account-details ul li b{
-    color:#000;
-    font-size: 15px;
+.account-edit-calendar{
     margin-left: auto;
-    
 }
 
-.account-image{
+.account-edit-image{
     height:150px;
     width:150px;
     background: #595858;
     border-radius: 50%;
-    top:12px;
+    top:35px;
     justify-content: center;
     align-items: center;
     margin-left: 5.5rem;
     z-index:6;
     position: relative;
 }
+.account-edit-file-label {
+    background: rgb(39, 167, 236);
+    color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    margin-left: 6.4rem;
+    top:6.8rem;
+}
 
-.account-buttons{
-    margin-top: 2rem;
+.account-edit-file-input{
+    position: absolute;
+    top: -9999px;
+}
+
+.account-edit-file-label::before {
+    content: '\f030'; 
+    font-weight: 900;
+    font-size: 16px;
+}
+.camera-icon{
+    height: 22px;
+    width: 29px;
+}
+.account-edit-buttons{
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
 }
-.account-back-button{
+.account-edit-back-button{
     
     display: inline-block;
     padding: 8px 20px;
@@ -130,12 +154,12 @@ body{
     margin-right: 3rem;
 
 }
-.account-back-button:hover{
+.account-edit-back-button:hover{
     background-color: rgb(39, 167, 236);
     color: #fff; 
     
 }
-.account-edit-button{
+.account-save-button{
     display:inline-flex;
     padding: 5px 20px;
     font-size: 16px;
@@ -151,12 +175,7 @@ body{
     margin-top: 0;
     vertical-align: top;
 }
-.account-edit-button:hover{
+.account-save-button:hover{
     background-color: rgb(136, 215, 241);
     color: #fff; 
-}
-.edit-icon{
-    margin-left: 5px;
-    margin-top: 2px;
-    color:#fff;
 }
