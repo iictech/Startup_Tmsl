@@ -13,6 +13,11 @@ const Home = () => {
             <Button key={name} name={name} />
           ))}
         </div>
+
+        <div className="mt-5 flex justify-center items-center">
+            <Button name="SignUp" />
+            <Button name="LogIn" />
+        </div>
       </div>
     </>
   );
