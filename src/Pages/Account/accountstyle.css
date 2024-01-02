@@ -1,0 +1,162 @@
+.account-section{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dff2ff;
+}
+.profile-heading{
+    font-size: 25px;
+    z-index:6;
+    position: relative;
+    font-weight: 800;
+}
+.account-box{
+    position: relative;
+    background-color: #fff;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    height: 630px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px #000;
+}
+.account-box .account-box-circle {
+    position: absolute;
+    
+    
+}
+.account-box .account-box-circle:nth-child(1){
+    background: rgb(31, 110, 246);
+    top:-80px;
+    left:-100px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    z-index:4;
+    opacity: 0.9;
+}
+.account-box .account-box-circle:nth-child(2){
+    background-color: rgb(39, 167, 236);
+    top:-110px;
+    left:150px;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    z-index:3;
+    opacity: 0.9;
+}
+.account-box .account-box-circle:nth-child(3){
+    background: rgb(136, 215, 241);
+    top:-70px;
+    left:180px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    z-index:2;
+    opacity: 0.9;
+}
+.account-details{
+    background: rgb(203, 241, 247);
+    opacity: 0.9;
+    z-index:5;
+    padding: 20px;
+    padding-top: 100px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #8f8d8d;
+    position: relative;
+    margin-top: -65px;
+}
+
+.account-details h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.account-details ul li{
+    color:#8f8d8d;
+    font-size: 14px;
+    display: flex;
+    border-bottom: 2px solid #26272b;
+    margin-bottom: 2rem;
+}
+.account-details ul li b{
+    color:#000;
+    font-size: 15px;
+    margin-left: auto;
+    
+}
+
+.account-image{
+    height:150px;
+    width:150px;
+    background-image: url('./1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    top:12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.5rem;
+    z-index:6;
+    position: relative;
+}
+
+.account-buttons{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+.account-back-button{
+    
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(136, 215, 241); 
+    color: #fff; 
+    box-shadow: 0 4px 8px #8f8d8d;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 3rem;
+
+}
+.account-back-button:hover{
+    background-color: rgb(39, 167, 236);
+    color: #fff; 
+    
+}
+.account-edit-button{
+    display:inline-flex;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(39, 167, 236); 
+    color: #fff; 
+    box-shadow: 0 4px 8px #8f8d8d;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 0;
+    vertical-align: top;
+}
+.account-edit-button:hover{
+    background-color: rgb(136, 215, 241);
+    color: #fff; 
+}
+.edit-icon{
+    margin-left: 5px;
+    margin-top: 2px;
+    color:#fff;
+}
