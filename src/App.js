@@ -11,6 +11,8 @@ import Feedback from './Pages/Feedback/Feedback'
 import ThankYou from './Pages/Feedback/ThankYou/ThankYou'
 import EventsCalender from './Pages/EventsCalender/EventsCalender'
 import Home from './Pages/Home/Home'
+import SignUp from './Pages/SignUp/SignUp'
+import LogIn from './Pages/LogIn/LogIn'
 
 
 const App = () => {
@@ -26,6 +28,8 @@ const App = () => {
     { path: '/feedback', component: Feedback },
     { path: '/thank-you', component: ThankYou },
     { path: '/events-calender', component: EventsCalender },
+    { path: '/signup', component: SignUp },
+    { path: '/login', component: LogIn },
   ];
 
   return (
