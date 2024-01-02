@@ -1,10 +1,8 @@
-*{
+.account-edit-section{
     margin:0;
     padding:0;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-}
-body{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -68,7 +66,7 @@ body{
     opacity: 0.9;
     z-index:5;
     padding: 20px;
-    padding-top:170px;
+    padding-top:180px;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px #8f8d8d;
@@ -80,16 +78,23 @@ body{
     font-size: 25px;
     font-weight: 800;
 }
-.account-edit-details ul li{
+.account-edit-details input{
     color:#8f8d8d;
     font-size: 14px;
     display: flex;
-    border-bottom: 2px solid #26272b;
+    border-bottom: 1.8px solid #26272b;
     margin-bottom: 2rem;
+    background: transparent;
+    width: 100%;
 }
-.account-edit-calendar{
-    margin-left: auto;
+.account-edit-details input[type="date"]::before {
+    content: "DOB";
+    color: #8f8d8d;
+    font-size: 14px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
 }
+
 
 .account-edit-image{
     height:150px;
@@ -121,12 +126,6 @@ body{
 .account-edit-file-input{
     position: absolute;
     top: -9999px;
-}
-
-.account-edit-file-label::before {
-    content: '\f030'; 
-    font-weight: 900;
-    font-size: 16px;
 }
 .camera-icon{
     height: 22px;
