@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #595858;
+    background-color: #dff2ff;
 }
 .profile-heading{
     font-size: 25px;
@@ -24,7 +24,7 @@
     width: 400px;
     height: 630px;
     overflow: hidden;
-    
+    box-shadow: 0 2px 12px #000;
 }
 .account-box .account-box-circle {
     position: absolute;
