@@ -11,7 +11,7 @@ const Blog_Card = () => {
                     <a href="./blog-page">
                         <img className="imgb" src="https://th.bing.com/th/id/OIP.I2wUkbqqN3unZgAQaBZANwHaEK?w=700&h=394&rs=1&pid=ImgDetMain" alt="image description"/>
                     </a>
-                    <figcaption className="absolute text text-white bottom-6">
+                    <figcaption className="absolute textkb text-white bottom-6">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore.</p>
                     </figcaption>
                 </figure>
