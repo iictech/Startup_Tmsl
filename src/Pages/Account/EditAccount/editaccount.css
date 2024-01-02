@@ -100,7 +100,9 @@
 .account-edit-image{
     height:150px;
     width:150px;
-    background: #595858;
+    background-image:url('./1.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
     top:35px;
     justify-content: center;
