@@ -4,8 +4,11 @@ import './Blog.css'
 const Blog = () => {
   return (
     <>
+    <section className='bg'>
       <div>
-        <div className='header2'></div>
+        <div className='blog'>
+          <div className='header2'></div>
+        </div>
         <h1 className='heading'>Blogs</h1>
         <div className='cards'>
           <Blog_Card></Blog_Card>
@@ -13,6 +16,7 @@ const Blog = () => {
           <Blog_Card></Blog_Card>
         </div>
       </div>
+      </section>
     </>
 
   )
